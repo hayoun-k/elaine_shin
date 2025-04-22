@@ -1,8 +1,11 @@
 ---
 layout: blog
 title: Brief thought about how marketing = understanding your customer
-date: 1905-03-02T12:00:00.000Z
+pubDate: 2025-04-22T16:43:00.000Z
+HeroImage: /public/images/sample.png
 thumbnail: src/assets/images/sample.png
+date: 1905-03-02T12:00:00.000Z
+description: Pub
 rating: 5
 ---
 

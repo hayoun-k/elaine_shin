@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: hey sample
-pubDate: April 21, 2025 10:42 PM
+pubDate: 2025-04-21T22:53:00.000Z
 HeroImage: src/assets/images/sample.png
 description: Wrold is changing
 ---

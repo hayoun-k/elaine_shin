@@ -1,8 +1,9 @@
 ---
 layout: blog
 title: Brief thought about how marketing = understanding your customer
-date: 1905-03-02T12:00:00.000Z
-thumbnail: src/assets/images/sample.png
+description: Hello World
+pubDate: 2025-04-21T22:53:00.000Z
+heroImage: src/assets/images/sample.png
 rating: 5
 ---
 

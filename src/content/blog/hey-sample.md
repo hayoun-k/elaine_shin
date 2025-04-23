@@ -2,7 +2,7 @@
 layout: blog
 title: hey sample
 pubDate: 2025-04-21T22:53:00.000Z
-HeroImage: src/assets/images/sample.png
+heroImage: /src/assets/images/sample.png
 description: Wrold is changing
 ---
 

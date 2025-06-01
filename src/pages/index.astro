@@ -118,6 +118,7 @@ const posts = (await getCollection('blog')).sort(
 		grid-template-columns: repeat(auto-fit, 200px);
 		/* grid-auto-columns: 200px; */
 		gap: 50px;
+		justify-content: center;
 	}
 
 	.blog-card a {
@@ -170,6 +171,10 @@ const posts = (await getCollection('blog')).sort(
 		height: 1.2em;
 	}
 
+	.btn.more {
+			margin-inline: auto;
+		}
+
 	@media screen and (width < 600px) {
 		main {
 			flex-direction: column;
@@ -180,8 +185,6 @@ const posts = (await getCollection('blog')).sort(
 			justify-content: center;
 		}
 
-		.btn.more {
-			margin-inline: auto;
-		}
+
 	}
 </style>

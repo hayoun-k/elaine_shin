@@ -6,20 +6,41 @@ import Layout from '../layouts/Layout.astro';
 	SITE_TITLE="About Me"
 	SITE_DESCRIPTION="Lorem ipsum dolor sit amet"
 >
-	<p>
-		After graduating UCLA during the pandemic, I started working full-time at the same company where I was interning and then part-time freelancing at.	</p>
-
-	<p>
-		I have been climbing up the ladder in my career at a rapid pace. It's been exhilarating and affirming, but it has been a journey that comes with a lot of uncertainty.
-	</p>
-
-	<p>
-		And whenever I encounter a dilemma, I always reflect. I find solid ground by reflecting on both myself and how I work. So, I'm finally putting down my mental models.
-	</p>
-
-	<p>
-		There will be a mixture of marinated thoughts but also rough takes as I navigate how I think. Learn, critique, and resonate with me.
-	</p>
-
-	<a href="#" class="btn cta">Get in touch with me on LinkedIn</a>
+	<main>
+		<div class="text-container">
+			<h1>About Me</h1>
+			<p>
+				After graduating UCLA during the pandemic, I started working full-time at the same company where I was interning and then part-time freelancing at.	</p>
+			<p>
+				I have been climbing up the ladder in my career at a rapid pace. It's been exhilarating and affirming, but it has been a journey that comes with a lot of uncertainty.
+			</p>
+			<p>
+				And whenever I encounter a dilemma, I always reflect. I find solid ground by reflecting on both myself and how I work. So, I'm finally putting down my mental models.
+			</p>
+			<p>
+				There will be a mixture of marinated thoughts but also rough takes as I navigate how I think. Learn, critique, and resonate with me.
+			</p>
+			<a href="#" class="btn cta">Get in touch with me on LinkedIn</a>
+		</div>
+	</main>
 </Layout>
+
+<style>
+	.text-container {
+		max-width: 850px;
+		margin: auto;
+	}
+
+	h1 {
+		margin-bottom: 1em;
+	}
+
+	p {
+		margin-bottom: 1em;
+		line-height: 1.6;
+	}
+
+	.btn {
+		margin-top: 2em;
+	}
+</style>

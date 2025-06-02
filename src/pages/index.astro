@@ -41,7 +41,7 @@ const posts = (await getCollection('blog')).sort(
 							<li class="blog-card">
 								<a href={`/blog/${post.id}/`}>
 									<div class="img-title">
-										<img width={200} height={150} src={post.data.heroImage} alt="" />
+										<Image width={200} height={150} src={post.data.heroImage} alt="" />
 										<h4 class="title">{post.data.title}</h4>
 										</div>
 									
